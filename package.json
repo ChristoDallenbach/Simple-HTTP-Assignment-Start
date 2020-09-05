@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "My Simple HTTP Homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristoDallenbach/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Christo Dallenbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristoDallenbach/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/ChristoDallenbach/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
